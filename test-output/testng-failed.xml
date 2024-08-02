@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <test thread-count="5" name="Automation(failed)">
+    <classes>
+      <class name="Tests.RegistationPageTest">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="openUrl"/>
+          <include name="callRegitation"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- Tests.RegistationPageTest -->
+    </classes>
+  </test> <!-- Automation(failed) -->
+</suite> <!-- Failed suite [suite] -->
